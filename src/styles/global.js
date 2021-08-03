@@ -1,11 +1,19 @@
 import { createGlobalStyle, } from 'styled-components';
 const GlobalStyle = createGlobalStyle` 
-    body {
+  * {
     margin: 0;
-    padding: 1px;
+    padding: 0;
     box-sizing: border-box;
-    background-color: #4a4a4a;
-  } `
+  }
+
+  body {
+    background-color: #000;
+  }
+
+  main {
+    background-color: #444;
+  }
+  `
 
 
 export default GlobalStyle

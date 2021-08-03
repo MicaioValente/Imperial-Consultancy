@@ -1,22 +1,25 @@
-import {ContentContainer , Logo , Contatos , Container} from './styles'
-import {NavbarDiv} from '../Navbar/NavbarDiv'
-function Header() {
-    return(
-    <Container>
-        <ContentContainer>       
-                <Logo src="/images/4.png">
-                   
-                </Logo>
-                <Contatos>
-                  </Contatos>   
-                
-        </ContentContainer>
-        
-        </Container>
-      
-       
-    )
+import styled from "styled-components";
+import Logo from './logo'
+import Contatos from './contatos'
+import Navbar from "./navbar";
 
-    
+export default function Header() {
+    return (
+        <Wrapper>
+            <Top>
+                <Logo />
+                <Contatos />
+            </Top>
+            <Navbar />
+        </Wrapper>
+    )
 }
-export default Header
+
+const Wrapper = styled.div`
+    background-color: blue;
+`
+
+const Top = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
