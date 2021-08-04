@@ -2,18 +2,21 @@ import styled from 'styled-components'
 
 export default function Navbar() {
   return <Wrapper>
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="/">Home</a>
+    <a href="/Who-are-we">Quem Somos</a>
+    <a href="/history">Histórias</a>
+    <a href="/services">Serviços</a>
+    <a href="/products">Produtos</a>
+    <a href="/login">LOGIN</a>
   </Wrapper>
 }
 
 const Wrapper = styled.nav`
-  background: black;
+  background: #ffd000;
   a {
     padding: 1rem;
     display: inline-block;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;

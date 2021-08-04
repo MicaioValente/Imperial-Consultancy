@@ -9,8 +9,11 @@ export default function Logo() {
 }
 
 const Wrapper = styled.div`
-    background-color: green;
+     margin-left: auto;
+     margin-right: auto;
+      
     img {
-      width: 200px;
+      width: 250px;
+     
     }
 `
