@@ -1,16 +1,16 @@
 import styled from "styled-components";
 import Logo from './logo'
-import Contatos from './contatos'
+import Bar from './bar'
 import Navbar from "./navbar";
-import Calco from "./calco";
+
 
 export default function Header() {
     return (
         <Wrapper>
+                <Bar/>
             <Top>
-                <Calco/>
+                
                 <Logo />
-                <Contatos />
             </Top>
             <Navbar />
         </Wrapper>
