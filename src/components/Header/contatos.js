@@ -1,17 +1,11 @@
 import styled from "styled-components";
-import { Facebook } from "@styled-icons/boxicons-logos/Facebook";
-import { Github } from "@styled-icons/boxicons-logos/Github";
-import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin";
-import { Whatsapp } from "@styled-icons/boxicons-logos/Whatsapp";
+import { Facebook,Github,Linkedin,Whatsapp} from "@styled-icons/boxicons-logos";
+
 
 
 export default function Contatos() {
     return (
-        <Wrapper>
-           
-           
-            
-           
+        <Wrapper>     
             <LinkSocial href="https://facebook.com" target="_blank" > <Facebook /> </LinkSocial>
             <LinkSocial href="https://www.github.com/micaiovalente" target="_blank"> <Github/></LinkSocial>
             <LinkSocial href="https://www.linkedin.com/" target="_blank"><Linkedin/></LinkSocial>
