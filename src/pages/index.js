@@ -1,34 +1,33 @@
+import styled from 'styled-components';
 import Layout from '../components/Layout'
+
 
 export default function Index() {
     return <Layout>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-                <p>andaisndiansidnaisd</p>
-v
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+     <p>Conteúdo Futuro</p>
+
+     
     </Layout>
 }

@@ -32,6 +32,3 @@ svg{
 
 `
 
-// const FacebookM = styled.Facebook`
-
-// `

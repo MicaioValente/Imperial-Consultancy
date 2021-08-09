@@ -12,7 +12,7 @@ export default function Header() {
                 
                 <Logo />
             </Top>
-            <Navbar />
+            <Navbar/>
         </Wrapper>
     )
 }

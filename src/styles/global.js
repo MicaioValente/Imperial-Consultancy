@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   main {
-    background-color: #444;
+    background-color: white;
   }
   `
 
