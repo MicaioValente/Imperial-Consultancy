@@ -4,10 +4,10 @@ export default function Navbar() {
   return <Wrapper>
   <Div>
     <a href="/">Home</a>
-    <a href="/Who-are-we">Quem Somos</a>
-    <a href="/history">Histórias</a>
-    <a href="/services">Serviços</a>
-    <a href="/products">Produtos</a>
+    <a href="/quem-somos">Quem Somos</a>
+    <a href="/historias">Histórias</a>
+    <a href="/servicos">Serviços</a>
+    <a href="/produtos">Produtos</a>
   </Div>
     <a href="/login">LOGIN</a>
   </Wrapper>
