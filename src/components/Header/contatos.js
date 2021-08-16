@@ -8,7 +8,7 @@ export default function Contatos() {
         <Wrapper>     
             <LinkSocial href="https://facebook.com" target="_blank" > <Facebook /> </LinkSocial>
             <LinkSocial href="https://www.github.com/micaiovalente" target="_blank"> <Github/></LinkSocial>
-            <LinkSocial href="https://www.linkedin.com/" target="_blank"><Linkedin/></LinkSocial>
+            <LinkSocial href="https://www.linkedin.com/in/micaio-valente-a3702a209/" target="_blank"><Linkedin/></LinkSocial>
             <LinkSocial href="https://www.whatsapp.com/" target="_blank"> <Whatsapp/></LinkSocial>
         </Wrapper>
     )
